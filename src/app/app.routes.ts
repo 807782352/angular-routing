@@ -6,9 +6,6 @@ import { NewTaskComponent } from './tasks/new-task/new-task.component';
 
 export const routes: Routes = [
   { path: '', component: NoTaskComponent }, // <your-domain>/
-
-  // { path: 'tasks', component: TasksComponent }, // <your-domain>/tasks
-
   {
     path: 'users/:userId',
     component: UserTasksComponent,
